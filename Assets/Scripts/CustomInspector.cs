@@ -46,6 +46,14 @@ public class CustomInspector : MonoBehaviour
     public Color rgba;
     public Gradient gradient;
 
+    [Header("Private Variables")]
+    [SerializeField]
+    private float privateFloat = 20.0f;
+    [SerializeField]
+    private int privateInt = 2;
+    [SerializeField]
+    private bool privateBool = true;
+
     // Use this for initialization
     void Start()
     {
