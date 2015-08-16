@@ -6,27 +6,31 @@ Add the following from your script to display in the GameObject's inspector for 
 # Usage
 -----
 ###### Headers
-```[Header("Variables")]
+```
+[Header("Variables")]
 public string text = "This is a string";
 ```
 
 ###### Spaces
 
-```public float var1; 
+```
+public float var1; 
 [Space(5f)] 
 public float var2; 
 ```
 
 ###### Public Variables
 
-```public float var1;
+```
+public float var1;
 public int var2;
 public bool var3;
 ```
 
 ###### Private Variables
 
-```[SerializeField] 
+```
+[SerializeField] 
 private float var1; 
 [SerializeField] 
 private int var2; 
@@ -36,13 +40,15 @@ private bool var3;
 
 ###### Sliders
 
-```[Range(1f, 10f)] 
+```
+[Range(1f, 10f)] 
 public float var1; 
 ```
 
 ###### Drop Downs
 
-```public enum Selector 
+```
+public enum Selector 
   { 
     One = 0, 
     Two = 1, 
@@ -54,7 +60,8 @@ public Selector select = Selector.One;
 
 ###### Colors
 
-```public Color rgba;
+```
+public Color rgba;
 public Gradient gradient;
 ```
 
