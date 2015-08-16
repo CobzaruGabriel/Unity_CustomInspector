@@ -1,6 +1,3 @@
-# Unity_CustomInspector
-Example on creating a custom inspector for scripts in Unity
-
 ![Screenshot](https://github.com/jasonrwalters/Unity_CustomInspector/blob/master/screenshot.PNG)
 
 # Description
