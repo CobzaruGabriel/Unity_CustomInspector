@@ -15,6 +15,7 @@ public class CustomInspector : MonoBehaviour
     public string string1 = "This is a string";
     public float float1 = 100.0f;
     public int int1 = 10;
+    public bool bool1 = true;
 
     [Header("Sliders")]
     [Range(1f, 10f)]
@@ -34,7 +35,7 @@ public class CustomInspector : MonoBehaviour
     [Header("Drop Down")]
     public Selector select = Selector.One;
 
-    [Header("Need a spaces between variables?")]
+    [Header("Need spaces between variables?")]
     public float var1;
     [Space(5f)]
     public float var2;
