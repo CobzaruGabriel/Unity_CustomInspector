@@ -4,7 +4,8 @@
 Add the following from your script to display in the GameObject's inspector for easier debugging and testing.
 -  Headers
 -  Spaces
--  Variables
+-  Public Variables
+-  Private Variables
 -  Sliders
 -  Drop Downs
 -  Colors
