@@ -7,26 +7,8 @@ Display variables created in scripts to be displayed in a GameObject's inspector
 
 # Usage
 
-###### Headers
-```
-[Header("Variables")]
-public string text = "This is a string";
-```
-
-
-###### Spaces
-Use `[Space(height)]` between each item that requires a space.  Height is in pixels.
-```
-public float var1; 
-[Space(5f)] 
-public float var2;
-[Space(10f)]
-public float var3;
-```
-
-
 ###### Public Variables
-All public variables will be displayed in the inspector.  Note, `public static` variables will NOT be displayed in the inspector.
+Public variables will be displayed in the inspector.  Note, `public static` variables will NOT be displayed in the inspector.
 ```
 public float var1;
 public int var2;
@@ -43,6 +25,24 @@ private float var1;
 private int var2; 
 [SerializeField] 
 private bool var3;
+```
+
+
+###### Headers
+```
+[Header("Variables")]
+public string text = "This is a string";
+```
+
+
+###### Spaces
+Use `[Space(height)]` between each item that requires a space.  Height is in pixels.
+```
+public float var1; 
+[Space(5f)] 
+public float var2;
+[Space(10f)]
+public float var3;
 ```
 
 
