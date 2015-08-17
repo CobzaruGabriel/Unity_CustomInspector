@@ -1,7 +1,7 @@
 ![Screenshot](https://github.com/jasonrwalters/Unity_CustomInspector/blob/master/screenshot.PNG)
 
 # Description
-Displays variables created in scripts to be displayed in a GameObject's inspector.
+Display variables created in scripts to be displayed in a GameObject's inspector.
 - Useful for adjusting game parameters during play tests in the Unity Editor.
 - Useful for debuging values when you do not need to draw messages to the screen.
 
