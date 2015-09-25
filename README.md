@@ -5,6 +5,9 @@ Display variables created in scripts to be displayed in a GameObject's inspector
 - Useful for adjusting game parameters during play tests in the Unity Editor.
 - Useful for debugging values when you do not need to draw messages to the screen.
 
+# Video Tutorial
+[https://channel9.msdn.com/Blogs/raw-tech/Lets-Create-Custom-Inspector-in-Unity](https://channel9.msdn.com/Blogs/raw-tech/Lets-Create-Custom-Inspector-in-Unity)
+
 # Usage
 
 ###### Public Variables
